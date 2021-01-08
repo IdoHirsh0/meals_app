@@ -35,7 +35,7 @@ class _FiltersScreenState extends State<FiltersScreen> {
     bool currentValue,
     Function updateValue,
   ) {
-    return SwitchListTile(
+    return SwitchListTile.adaptive(
       title: Text(title),
       value: currentValue,
       subtitle: Text(
